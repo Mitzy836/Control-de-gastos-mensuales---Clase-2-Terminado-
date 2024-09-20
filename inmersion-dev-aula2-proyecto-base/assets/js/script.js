@@ -88,7 +88,7 @@ function editarGasto(indice) {
         if (result.isConfirmed) {
 
             // Guardar el índice del gasto a editar
-            indiceEdicion = indice; 
+            indiceEdiccion = indice; 
 
             document.getElementById('nombreGasto').value = listaNombresGastos[indice];
             document.getElementById('valorGasto').value = listaValoresGastos[indice];
